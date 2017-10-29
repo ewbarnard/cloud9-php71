@@ -7,10 +7,10 @@ https://github.com/ewbarnard/cloud9-php71 . Since we will be creating the
 Cloud9 workspace from this fork, the Cloud9 workspace can pull
 workspace updates.
 
-1. Merge my updates to the fork's master branch. This makes the
+2. Merge my updates to the fork's master branch. This makes the
 Cloud9 workspace-creation step cleaner.
 
-1. From the Cloud9 dashboard, create a new workspace. This will be
+3. From the Cloud9 dashboard, create a new workspace. This will be
 the master from which student workspaces will be cloned.
 
   * **Clone from Git or Mercurial URL**: Enter the GitHub forked
@@ -19,4 +19,9 @@ the master from which student workspaces will be cloned.
   * **Choose a template**: Click on "PHP, Apache ...".
   * Click the "Create workspace" button.
   
-  
+4. On the shell tab, follow the installation instructions shown
+in the README.md tab.
+
+  * Unless this is a cloned workspace with PHP 7.1 already installed,
+  install the PHP 7.1 environment with `bash install.sh`.
+  * Verify the MySQL installation.

@@ -18,14 +18,12 @@ bash install.sh
 
 3. Verify your MySQL installation:
 
-* Your MySQL user is the same as the Cloud9 workspace team name. In the address bar,
-it is the phrase after "https://ide.c9.io/". For example, if your address bar begins
-"https://ide.c9.io/oneforallevents/" it is "oneforallevents".
-* In your bash tab, use the command-line MySQL client as below but with your MySQL user.
+* Your MySQL user is "homestead".
+* You will be prompted for the password which is "secret".
 
 ```
-mysql -u oneforallevents
-   show databases; -- should see six databases including c9, homestead
+mysql -u homestead -p
+   show databases; -- should see six databases including homestead
    use homestead;
    show tables;    -- should be empty
    quit            -- Bye
