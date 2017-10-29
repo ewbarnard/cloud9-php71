@@ -40,3 +40,9 @@ The second (youtube) link is their channel page. You can see intro videos on tha
 Click on the "Uploads" section and you can find more useful videos such as
 [Setting Up phpMyAdmin](https://www.youtube.com/watch?v=71BJF3HQzZQ) and
 [Debugging PHP Code with Cloud9](https://www.youtube.com/watch?v=l5HxwCMTMz8).
+
+### Workspace Update
+
+This workspace has been set up from a GitHub repository. If repository material has
+been added/updated, you can pull it into your workspace with `git pull`. You can check
+the repository status with `git status`.
