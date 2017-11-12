@@ -44,5 +44,4 @@ Click on the "Uploads" section and you can find more useful videos such as
 ### Workspace Update
 
 This workspace has been set up from a GitHub repository. If repository material has
-been added/updated, you can pull it into your workspace with `git pull`. You can check
-the repository status with `git status`.
+been added/updated, you can pull it into your workspace with `git pull`.
